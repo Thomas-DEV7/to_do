@@ -30,6 +30,7 @@ button{
 }
 .red{
   background-color: #e91b00;
+  padding: 10px;
 }
 .green{
   background-color: #0c8d00;
@@ -40,6 +41,21 @@ button:hover{
 
 .todo-form{
   padding-bottom: 1.5rem;
+}
+.todo-list{
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+.item{
+  background-color: #f0f1f1;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 8px #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 input, select{
   padding: 5px;
