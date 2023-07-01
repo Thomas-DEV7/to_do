@@ -17,3 +17,34 @@ body{
 input{
   box-sizing: border-box;
 }
+button{
+  background-color: #170177;
+  color: #fff;
+  border: none;
+  padding:10px 5px;
+  border-radius: 5px;
+  margin-right: 3px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+.red{
+  background-color: #e91b00;
+}
+.green{
+  background-color: #0c8d00;
+}
+button:hover{
+  opacity: 1;
+}
+
+.todo-form{
+  padding-bottom: 1.5rem;
+}
+input, select{
+  padding: 5px;
+  width: 90%;
+  border: 1px solid #DDD;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
